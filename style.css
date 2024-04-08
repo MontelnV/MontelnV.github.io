@@ -349,6 +349,12 @@ section {
 .about-pic {
   border-radius: 2rem;
   filter: drop-shadow(2px 2px 4px rgba(50, 47, 47, 0.59));
+  transition: transform 1.0s;
+
+}
+
+.about-pic:hover {
+  transform: scale(1.05);
 }
 
 .arrow {
@@ -432,8 +438,19 @@ article .icon {
   font-size: 60px;
   filter: drop-shadow(2px 2px 4px rgba(50, 47, 47, 0.59));
   margin-right: 10px;
+  transition: transform 0.5s;
 }
 
+.devicon-git-plain:hover,
+.devicon-nginx-original:hover,
+.devicon-docker-plain:hover,
+.devicon-bash-plain:hover,
+.devicon-sqlalchemy-plain:hover,
+.devicon-sqlite-plain:hover,
+.devicon-fastapi-plain:hover,
+.devicon-python-plain:hover {
+  transform: scale(1.2);
+}
 /* PROJECTS SECTION */
 
 #projects {
@@ -443,13 +460,18 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  transition: transform 0.5s;
+}
+.color-container:hover {
+  transform: scale(1.1);
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
+
 
 .project-title {
   margin: 1rem;
