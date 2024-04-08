@@ -18,6 +18,15 @@
   }
   #hamburger-nav {
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    background: #fff;
+  }
+  nav {
+    height: 90px;
   }
   #experience,
   .experience-details-container {
@@ -44,6 +53,22 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .hamburger-menu {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 65%;
+    left: -100%;
+    background-color: #fff;
+    z-index: 10;
+    transition: all 0.3s ease;
+  }
+  #menu.active {
+    left: 0%;
+  }
+  #profile {
+    padding-top: 120px;
   }
 }
 

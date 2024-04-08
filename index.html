@@ -8,8 +8,11 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -25,23 +28,33 @@
     </nav>
     <nav id="hamburger-nav">
       <div class="logo">#MontelnV</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <div class="hamburger-menu" id="menu">
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li class="responsive_link">
+            <a href="#about">About</a>
+          </li>
+          <li class="responsive_link">
+            <a href="#experience">Experience</a>
+          </li>
+          <li class="responsive_link">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="responsive_link">
+            <a href="#contact">Contact</a>
+          </li>
         </div>
       </div>
+      <button class="burger" id="burger">
+        <span></span>
+      </button>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img class="about-pic" src="./assets/profile-pic.png" alt="My picture" />
+        <img
+          class="about-pic"
+          src="./assets/profile-pic.png"
+          alt="My picture"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hi! i'm</p>
@@ -63,7 +76,8 @@
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick=location.href="https://github.com/MontelnV"
+            onclick="location.href"
+            ="https://github.com/MontelnV"
           />
         </div>
       </div>
@@ -73,11 +87,7 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
-          <img
-            src="./assets/man.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
+          <img src="./assets/man.png" alt="Profile picture" class="about-pic" />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
@@ -103,7 +113,13 @@
           </div>
           <div class="text-container">
             <p>
-              As a passionate individual, I engage in amateur chess and pursue music production as a creative outlet. Python has been my primary programming language, which I began learning back in school and continued to study throughout my university education. I found a keen interest in Backend and DevOps, where I have honed my skills in developing APIs for various services and proficiently deploying applications on servers, alongside administering them.
+              As a passionate individual, I engage in amateur chess and pursue
+              music production as a creative outlet. Python has been my primary
+              programming language, which I began learning back in school and
+              continued to study throughout my university education. I found a
+              keen interest in Backend and DevOps, where I have honed my skills
+              in developing APIs for various services and proficiently deploying
+              applications on servers, alongside administering them.
             </p>
           </div>
         </div>
@@ -138,8 +154,6 @@
                 </div>
               </article>
               <article>
-
-
                 <i class="devicon-sqlite-plain"></i>
 
                 <div>
@@ -148,7 +162,6 @@
                 </div>
               </article>
               <article>
-
                 <i class="devicon-sqlalchemy-plain"></i>
 
                 <div>
@@ -156,15 +169,13 @@
                   <p>Intermediate</p>
                 </div>
               </article>
-
             </div>
           </div>
           <div class="details-container">
             <h2 class="experience-sub-title">DevOps</h2>
             <div class="article-container">
               <article>
-
-            <i class="devicon-bash-plain"></i>
+                <i class="devicon-bash-plain"></i>
                 <div>
                   <h3>BASH</h3>
                   <p>Intermediate</p>
@@ -172,8 +183,7 @@
               </article>
 
               <article>
-
-            <i class="devicon-docker-plain"></i>
+                <i class="devicon-docker-plain"></i>
 
                 <div>
                   <h3>DOCKER</h3>
@@ -181,8 +191,7 @@
                 </div>
               </article>
               <article>
-
-            <i class="devicon-nginx-original"></i>
+                <i class="devicon-nginx-original"></i>
 
                 <div>
                   <h3>NGINX</h3>
@@ -190,8 +199,7 @@
                 </div>
               </article>
               <article>
-
-            <i class="devicon-git-plain"></i>
+                <i class="devicon-git-plain"></i>
 
                 <div>
                   <h3>GIT</h3>
@@ -216,11 +224,7 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/agg.png"
-                alt="Project 1"
-                class="project-img"
-              />
+              <img src="./assets/agg.png" alt="Project 1" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Event Aggregator</h2>
             <div class="btn-container">
@@ -230,7 +234,6 @@
               >
                 Github
               </button>
-
             </div>
           </div>
           <div class="details-container color-container">
@@ -241,7 +244,9 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title"><i>In Progress</i></h2>
+            <h2 class="experience-sub-title project-title">
+              <i>In Progress</i>
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -249,7 +254,6 @@
               >
                 Github
               </button>
-
             </div>
           </div>
           <div class="details-container color-container">
@@ -260,7 +264,9 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title"><i>In Progress</i></h2>
+            <h2 class="experience-sub-title project-title">
+              <i>In Progress</i>
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -268,7 +274,6 @@
               >
                 Github
               </button>
-
             </div>
           </div>
         </div>
@@ -290,7 +295,9 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:vsorokin2005@yandex.ru">vsorokin2005@yandex.ru</a></p>
+          <p>
+            <a href="mailto:vsorokin2005@yandex.ru">vsorokin2005@yandex.ru</a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -315,6 +322,6 @@
       </nav>
       <p>Copyright &#169; 2024 MontelnV. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
   </body>
+  <script src="script.js"></script>
 </html>
