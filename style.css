@@ -70,6 +70,16 @@ a:hover {
   cursor: default;
 }
 
+#desktop-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+  height: 120px;
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
