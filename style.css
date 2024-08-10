@@ -320,6 +320,7 @@ section {
 
 .text-container {
   color: #323232;
+  font-size: 20px;
 }
 
 #about {
@@ -409,7 +410,7 @@ section {
 .experience-sub-title {
   color: rgba(255, 255, 255, 0.842);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -448,7 +449,12 @@ article .icon {
 .devicon-sqlalchemy-plain,
 .devicon-sqlite-plain,
 .devicon-fastapi-plain,
-.devicon-python-plain {
+.devicon-python-plain,
+.devicon-cplusplus-plain,
+.devicon-pandas-plain-wordmark,
+.devicon-azuresqldatabase-plain,
+.devicon-sqldeveloper-plain,
+.devicon-debian-plain {
   font-size: 60px;
   filter: drop-shadow(2px 2px 4px rgba(50, 47, 47, 0.59));
   margin-right: 10px;
@@ -462,7 +468,10 @@ article .icon {
 .devicon-sqlalchemy-plain:hover,
 .devicon-sqlite-plain:hover,
 .devicon-fastapi-plain:hover,
-.devicon-python-plain:hover {
+.devicon-python-plain:hover,
+.devicon-pandas-plain-wordmark:hover,
+.devicon-azuresqldatabase-plain:hover,
+.devicon-sqldeveloper-plain:hover {
   transform: scale(1.2);
 }
 /* PROJECTS SECTION */
@@ -489,7 +498,7 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .project-btn {
