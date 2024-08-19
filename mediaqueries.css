@@ -12,7 +12,9 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
+  #contact {
+    padding-top: 50px;
+  }
   #projects {
     height: fit-content;
   }

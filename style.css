@@ -211,6 +211,7 @@ section {
   min-height: fit-content;
 }
 
+
 .section-container {
   display: flex;
 }
@@ -317,6 +318,7 @@ section {
 }
 
 /* ABOUT SECTION */
+
 
 .text-container {
   color: #323232;
