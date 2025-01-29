@@ -444,6 +444,7 @@ article .icon {
 }
 
 /*ICONS*/
+.devicon-apache-plain,
 .devicon-git-plain,
 .devicon-nginx-original,
 .devicon-docker-plain,
@@ -454,6 +455,7 @@ article .icon {
 .devicon-python-plain,
 .devicon-cplusplus-plain,
 .devicon-pandas-plain-wordmark,
+.devicon-selenium-original,
 .devicon-azuresqldatabase-plain,
 .devicon-sqldeveloper-plain,
 .devicon-debian-plain {
@@ -463,6 +465,10 @@ article .icon {
   transition: transform 0.5s;
 }
 
+.devicon-apache-plain:hover,
+.devicon-debian-plain:hover,
+.devicon-cplusplus-plain:hover,
+.devicon-selenium-original:hover,
 .devicon-git-plain:hover,
 .devicon-nginx-original:hover,
 .devicon-docker-plain:hover,
